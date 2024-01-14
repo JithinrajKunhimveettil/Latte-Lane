@@ -1,0 +1,163 @@
+#header{
+    background-color: #3e280e;    
+   
+
+  }
+  .name{
+    font-size: 25px;
+    font-weight: 2px solid;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .body-sec h1{
+font-family: 'Times New Roman', Times, serif; 
+color:#3e280e;
+  }
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 20px; 
+
+      }
+      
+
+.home-image{
+    height: 800px;
+    width: 100%;
+}
+.text-bg{
+    color: rgb(227, 192, 150);
+}
+.body-sec{
+    width:100%;
+    height:100%;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.row-cols-lg-3>*{
+    height: 500px;
+}
+.p-3{
+    height: 89px;
+    background-color: #34210a;
+    
+}
+
+.lead{
+    color:#34210a;
+    text-align: justify;
+}
+
+#footer{
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-color: #34210a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+}
+#book{
+    color: #3e280e;
+}
+
+.btn{
+    background-color: #3e280e;
+}
+.image-about{
+    height: 500px;
+    width:100%
+}
+#body-about2{
+    width:100%;
+    padding: 20px;
+  margin-bottom: 20px;
+}
+.image-icons{
+    height: 10px;
+    width:20px;
+}
+#body-about3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #body-about3 .row {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  #body-about3 .col-lg-3,
+  #body-about3 .col-lg-5 {
+    margin-top: 2rem;
+  }
+  
+  .menu{
+    
+    font-size: 15px;
+  }
+  .menu-price{
+    position: absolute;
+    right: 180px;
+    font-size: 15px;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      margin: 10px;
+    }
+    footer {
+        bottom: 0;
+      
+        width: 100%;
+        background-color: #34210a;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+
+      }
+      #body-about2{
+       
+            padding: 10px; 
+            margin-bottom: 10px; 
+          
+      }
+      #menu-body1 .row {
+        flex-direction: column; 
+        align-items: center;      }
+    
+      #menu-body1 .col-lg-6 {
+        order: 1;
+      }
+    
+      #menu-body1 img {
+        max-width: 100%;
+        height: auto;   
+    align-items: center;  
+      }
+ 
+      #menu-body2 .row {
+        flex-direction: column; 
+align-items: center;      }
+    
+      #menu-body2 .col-lg-6 {
+        order: 1;
+      }
+    
+      #menu-body2 img {
+        max-width: 100%;
+        height: auto;   
+    align-items: center;  
+      }
+    
+ 
+}
